@@ -10,7 +10,6 @@ ha_domain: lock
 
 Keeps track which locks are in your environment, their state and allows you to control them.
 
- * Maintains a state per lock and a combined state `all_locks`.
  * Registers services `lock.lock`, `lock.unlock` and `lock.open` (unlatch) to control locks.
 
 ### Services
